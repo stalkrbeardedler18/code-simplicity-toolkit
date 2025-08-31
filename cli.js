@@ -11,6 +11,8 @@ if (args[0] === 'analyze') {
         process.exit(1);
     }
     toolkit.analyze(filePath);
+} else if (args[0] === 'help') {
+    console.log('Usage: cli.js analyze <file-path>\n       cli.js help');
 } else {
     console.log('Command not recognized.');
 }
