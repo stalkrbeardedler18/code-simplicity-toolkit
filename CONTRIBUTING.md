@@ -10,7 +10,7 @@ We love contributions from the community! Please follow these guidelines to help
 
 ## Guidelines
 - Follow the existing code style.
-- Write clear commit messages.
+- Write clear and concise commit messages.
 - Include tests for new features or bug fixes when possible. Testing is crucial for our project's reliability and stability.
 
 ## Branch Naming Convention
