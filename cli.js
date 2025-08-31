@@ -1,3 +1,4 @@
+```
 #!/usr/bin/env node
 
 const CodeSimplicityToolkit = require('./index');
@@ -10,9 +11,15 @@ if (args[0] === 'analyze') {
         console.log('Error: No file path provided for analysis.');
         process.exit(1);
     }
-    toolkit.analyze(filePath);
+    try {
+        toolkit.analyze(filePath);
+    } catch (error) {
+        console.log('Error during analysis:', error.message);
+        process.exit(1);
+    }
 } else if (args[0] === 'help') {
     console.log('Usage: cli.js analyze <file-path>\n       cli.js help');
 } else {
     console.log('Command not recognized.');
-}
+} 
+```
