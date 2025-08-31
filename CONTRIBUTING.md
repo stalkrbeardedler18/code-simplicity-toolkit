@@ -11,6 +11,6 @@ We love contributions from the community! Please follow these guidelines to help
 ## Guidelines
 - Follow the existing code style.
 - Write clear commit messages.
-- Include tests for new features or bug fixes when possible.
+- Include tests for new features or bug fixes when possible. Testing is crucial for our project's reliability and stability.
 
 Thank you for contributing!
