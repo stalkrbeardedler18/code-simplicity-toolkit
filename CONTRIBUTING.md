@@ -13,4 +13,7 @@ We love contributions from the community! Please follow these guidelines to help
 - Write clear commit messages.
 - Include tests for new features or bug fixes when possible. Testing is crucial for our project's reliability and stability.
 
+## Branch Naming Convention
+- Use descriptive names for branches to indicate the purpose of the changes (e.g., `feature/add-login`, `bugfix/fix-header`).
+
 Thank you for contributing!
